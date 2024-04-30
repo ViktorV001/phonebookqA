@@ -1,0 +1,44 @@
+12:00:19.496 [main] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.startBrowser()]. Static configuration methods can cause unexpected behavior.
+12:00:19.508 [main] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.tearDown()]. Static configuration methods can cause unexpected behavior.
+12:00:19.608 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+12:00:19.670 [main] INFO  tests.BaseTest -- run browser settings 
+12:00:22.810 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+12:00:22.916 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\AIT TR Student\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+12:00:32.921 [main] INFO  tests.BaseTest -- Start test: deleteAllExistingContacts with data []
+12:00:32.926 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:34.867 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:35.000 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:00:36.644 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:36.712 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:36.808 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:00:38.419 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:38.447 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:38.577 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:00:40.195 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:40.275 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:40.551 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:00:42.181 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:42.229 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:00:42.378 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:00:43.981 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:01:17.055 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:01:47.225 [main] INFO  tests.BaseTest -- PASSED deleteAllExistingContacts
+12:01:47.226 [main] INFO  tests.BaseTest -- Stop test
+12:01:47.226 [main] INFO  tests.BaseTest -- -------------------------------------------------------
+12:01:47.239 [main] INFO  tests.BaseTest -- Start test: deleteOneContactTest with data []
+12:01:47.418 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+12:01:47.801 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+12:01:48.024 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+12:01:48.298 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+12:01:48.594 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+12:01:48.789 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+12:01:52.184 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:01:52.368 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //button[text()='Remove']
+12:01:55.516 [main] INFO  helpers.BaseHelper -- Locator: findElements: By.xpath: //div[contains(@class,'contact-item_card')]/h2
+12:02:25.571 [main] INFO  tests.BaseTest -- PASSED deleteOneContactTest
+12:02:25.571 [main] INFO  tests.BaseTest -- Stop test
+12:02:25.571 [main] INFO  tests.BaseTest -- -------------------------------------------------------
+12:02:25.577 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'navbar-logged')]//button
+12:02:25.940 [main] INFO  tests.BaseTest -- quit browser

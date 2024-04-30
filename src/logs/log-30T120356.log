@@ -1,0 +1,15 @@
+12:03:59.282 [main] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.startBrowser()]. Static configuration methods can cause unexpected behavior.
+12:03:59.297 [main] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.tearDown()]. Static configuration methods can cause unexpected behavior.
+12:03:59.361 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+12:03:59.435 [main] INFO  tests.BaseTest -- run browser settings 
+12:04:00.770 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+12:04:00.869 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\AIT TR Student\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+12:04:05.414 [main] INFO  tests.BaseTest -- Start test: homePageOpened with data []
+12:04:05.421 [main] INFO  helpers.BaseHelper -- Locator: findElement: By.cssSelector: div:nth-child(2) h1
+12:04:05.501 [main] INFO  helpers.BaseHelper -- get text from element: Home Component
+12:04:05.515 [main] INFO  tests.BaseTest -- PASSED homePageOpened
+12:04:05.516 [main] INFO  tests.BaseTest -- Stop test
+12:04:05.517 [main] INFO  tests.BaseTest -- -------------------------------------------------------
+12:04:05.525 [main] INFO  tests.BaseTest -- quit browser

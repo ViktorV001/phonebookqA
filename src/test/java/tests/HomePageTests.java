@@ -11,5 +11,5 @@ public class HomePageTests extends BaseTest{
         System.out.println(actualRes); // sout
         Assert.assertEquals(actualRes,"Home Component");
     }
-
+// kjkccmlll kdldldd ldldslsl
 }
