@@ -1,0 +1,13 @@
+08:37:41.214 [Test worker] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.startBrowser()]. Static configuration methods can cause unexpected behavior.
+08:37:41.220 [Test worker] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.tearDown()]. Static configuration methods can cause unexpected behavior.
+08:37:41.275 [Test worker] INFO  tests.BaseTest -- run browser settings 
+08:37:41.862 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+08:37:41.908 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\AIT TR Student\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+08:37:45.060 [Test worker] INFO  tests.BaseTest -- Start test: homePageOpened with data []
+08:37:45.071 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.cssSelector: div:nth-child(2) h1
+08:37:45.145 [Test worker] INFO  helpers.BaseHelper -- get text from element: Home Component
+08:37:45.154 [Test worker] INFO  helpers.BaseHelper -- start screenshot
+08:37:45.691 [Test worker] INFO  tests.BaseTest -- PASSED homePageOpenedScreenshot: screenshots\screen1714459065656.png
+08:37:45.691 [Test worker] INFO  tests.BaseTest -- Stop test
+08:37:45.691 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:37:45.698 [Test worker] INFO  tests.BaseTest -- quit browser

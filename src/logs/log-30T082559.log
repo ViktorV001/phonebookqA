@@ -1,0 +1,57 @@
+08:26:00.461 [Test worker] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.startBrowser()]. Static configuration methods can cause unexpected behavior.
+08:26:00.468 [Test worker] WARN  org.testng.internal.Configuration -- Detected a static method [tests.BaseTest.tearDown()]. Static configuration methods can cause unexpected behavior.
+08:26:00.542 [Test worker] INFO  tests.BaseTest -- run browser settings 
+08:26:01.149 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+08:26:01.205 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\AIT TR Student\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+08:26:06.089 [Test worker] INFO  tests.BaseTest -- Start test: positiveAddContactProviderCSV with data [dto.ContactDTO@5aaaa446]
+08:26:06.863 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+08:26:07.073 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+08:26:07.250 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+08:26:07.434 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+08:26:07.624 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+08:26:07.818 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+08:26:10.138 [Test worker] INFO  tests.BaseTest -- PASSED positiveAddContactProviderCSV
+08:26:10.139 [Test worker] INFO  tests.BaseTest -- Stop test
+08:26:10.140 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:26:10.141 [Test worker] INFO  tests.BaseTest -- Start test: positiveAddContactProviderCSV with data [dto.ContactDTO@12fcc71f]
+08:26:10.263 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+08:26:10.457 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+08:26:10.710 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+08:26:10.909 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+08:26:11.112 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+08:26:11.308 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+08:26:13.604 [Test worker] INFO  tests.BaseTest -- PASSED positiveAddContactProviderCSV
+08:26:13.604 [Test worker] INFO  tests.BaseTest -- Stop test
+08:26:13.604 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:26:13.606 [Test worker] INFO  tests.BaseTest -- Start test: positiveAddContactProviderCSV with data [dto.ContactDTO@1c8f6a90]
+08:26:13.714 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+08:26:14.076 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+08:26:14.344 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+08:26:14.639 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+08:26:14.894 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+08:26:15.089 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+08:26:17.435 [Test worker] INFO  tests.BaseTest -- PASSED positiveAddContactProviderCSV
+08:26:17.435 [Test worker] INFO  tests.BaseTest -- Stop test
+08:26:17.435 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:26:17.437 [Test worker] INFO  tests.BaseTest -- Start test: positiveAddContactProviderCSV with data [dto.ContactDTO@3cad68df]
+08:26:17.525 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+08:26:17.719 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+08:26:17.888 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+08:26:18.056 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+08:26:18.232 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+08:26:18.406 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+08:26:20.700 [Test worker] INFO  tests.BaseTest -- PASSED positiveAddContactProviderCSV
+08:26:20.700 [Test worker] INFO  tests.BaseTest -- Stop test
+08:26:20.700 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:26:20.702 [Test worker] INFO  tests.BaseTest -- Start test: positiveAddContactProviderCSV with data [dto.ContactDTO@4e83a98]
+08:26:20.799 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Name']
+08:26:20.992 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Last Name']
+08:26:21.143 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Phone']
+08:26:21.310 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='email']
+08:26:21.557 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='Address']
+08:26:21.725 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //input[@placeholder='description']
+08:26:24.032 [Test worker] INFO  tests.BaseTest -- PASSED positiveAddContactProviderCSV
+08:26:24.033 [Test worker] INFO  tests.BaseTest -- Stop test
+08:26:24.033 [Test worker] INFO  tests.BaseTest -- -------------------------------------------------------
+08:26:24.036 [Test worker] INFO  helpers.BaseHelper -- Locator: findElement: By.xpath: //div[contains(@class,'navbar-logged')]//button
+08:26:24.262 [Test worker] INFO  tests.BaseTest -- quit browser
